@@ -1,0 +1,12 @@
+{
+    "db": {
+        "name": "",
+        "host": "",
+        "port": 0,
+        "user": "",
+        "password": ""
+    },
+	"testFile": "C:/RsBank55/hasp/dump.reg",
+	"execFile": "C:/RsBank55/hasp/hasp.bat",
+	"resFile": "C:/RsBank55/TxtFile/haspinfo.1"
+}

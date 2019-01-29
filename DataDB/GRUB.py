@@ -48,7 +48,7 @@ class Update():
         task.userName = userName
 
     @staticmethod
-    def updProc(id, flagExec, inputTest, resFile, pos, bytes, userNameProc="", timewait=""):
+    def updProc(id, flagExec, inputTest, resFile, pos, bytes, userNameProc="", timewait=20):
         proc = Proc.select().where(Proc.idProc == id).get()
         proc.flagExec = flagExec
         proc.inputTest = inputTest

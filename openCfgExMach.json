@@ -1,11 +1,12 @@
 {
     "db": {
-        "name": "",
-        "host": "",
-        "port": 0,
-        "user": "",
-        "password": ""
+        "name": "dds",
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "pswd"
     },
+    "taskkill": "startbnk.exe",
 	"testFile": "C:/RsBank55/hasp/dump.reg",
 	"execFile": "C:/RsBank55/hasp/hasp.bat",
 	"resFile": "C:/RsBank55/TxtFile/haspinfo.1"
